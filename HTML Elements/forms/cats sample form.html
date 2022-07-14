@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Working with forms</title>
+    <style>
+        #container{
+            width:94%;
+            padding:15px;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <h1>Cats Rule</h1>
+        <p>Tell us about your cat:</p>
+
+        <!--using google as a placeholder for a url-->
+        <form action="http://google.com" method="get">
+
+            Input type text: <input name="firstname" type="text"><br>
+            Password input: <input name="password" type="password"><br>
+            Reset: <input name="reset" type="reset"><br>
+            Submit: <input name="submit" type="submit"><br>
+            Checkbox: <input name="checkbox" type="checkbox"><br>
+
+            Radio Button: <input name="radioB" type="radio">Button 1 <input name="radioB" type="radio">Button 2<br>
+
+
+            <textarea name="textarea">enter a story about your cat here</textarea><br>
+            <br>
+
+            <select name="dropdown" size="6" multiple="multiple">
+                <optgroup label="option set">
+                    <option name="option1">Option 1</option>
+                    <option name="option2">Option 2</option>
+                </optgroup>
+                <optgroup label="group two">
+                    <option name="option3">Option 3</option>
+                    <option name="option4">Option 4</option>
+                </optgroup>
+                <option name="option5">Option 5</option>
+                <option name="option6">Option 6</option>
+            </select>
+
+        </form>
+    </div>
+</body>
+</html>

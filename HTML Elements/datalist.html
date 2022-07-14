@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <h1>DataList Examples</h1>
+
+        <p>Type for suggestions, or enter your own color that isn't included on the list.</p>
+
+        <label for="fav-color">Favorite Color</label>
+        <input id="fav-color" name="fav-color" list="color">
+        <datalist id="color">
+            <option value="red"></option>
+            <option value="blue"></option>
+            <option value="green"></option>
+            <option value="pink"></option>
+            <option value="purple"></option>
+            <option value="orange"></option>
+            <option value="yellow"></option>
+            <option value="aqua"></option>
+            <option value="maroon"></option>
+        </datalist>
+        <hr>
+
+        <h1>Donation Range</h1>
+        <p>Select a donation amount</p>
+
+        <lable for="dontation">Donation Amount(USD):</lable>
+        <input type="range" name="donation" id="dontation" list="donation_list"
+        step="5" min="5" max="200">
+        <datalist id="donation_list">
+            <option>25</option>
+            <option>50</option>
+            <option>100</option>
+            <option>200</option>
+        </datalist>
+    </body>
+</html>

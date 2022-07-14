@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>   
+        <meta charset="utf-8">
+        <title>John Doe's Portfolio - forms</title>
+        <link rel="stylesheet" href="master copy.css">
+    </head>
+    <body>
+        <h1>John Doe's Portfolio - Forms</h1>
+        <section>
+            <h3 class="sectionHeader">Cupidatat Spariatur Reprehenderit</h3>
+            <p>Est dolor proident sint qui nisi consectetur officia ea nostrud ut ullamco laborum. Laboris id incididunt enim culpa. Non sunt excepteur eiusmod commodo enim ea do. Minim ut laboris culpa laborum voluptate nostrud id est voluptate incididunt ut dolor ipsum mollit. Proident aute ad tempor reprehenderit consequat. Sunt voluptate occaecat consequat elit Lorem enim eiusmod eiusmod ipsum. Esse ut consectetur velit tempor nisi mollit officia velit laborum eiusmod.</p>
+        </section>
+        <hr>
+        <section>
+            <h3 class="sectionHeader">Proident Reprehenderit Laboris</h3>
+
+            <form action="index.html" method="post" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <!--column-->
+                    <td>
+                      <table>
+                          <tr>
+                              <td class="noborder">First Name:</td>
+                              <td class="noborder"><input type="text" name="firstName" value=""></td>
+                          </tr>
+                          <tr>
+                              <td class="noborder">Last Name:</td>
+                              <td class="noborder"><input type="text" name="lastName" value=" "></td>
+                          </tr>
+                          <tr>
+                              <td class="noborder">Email Address:</td>
+                              <td class="noborder"><input type="email" name="emailAddress" value=" "></td>
+                          </tr>
+                          <tr>
+                            <td class="noborder">Password:</td>
+                            <td class="noborder"><input type="password" name="myPassword" value=""></td>
+                        </tr>
+                        <tr>
+                            <td class="noborder">Birth Date:</td>
+                            <td class="noborder"><input type="date" name="birthDate" value=""></td>
+                        </tr>
+                        <tr>
+                            <td class="noborder">Best Contact Time:</td>
+                            <td class="noborder">
+                                <input type="radio" name="contactTime" value="any"><label for="any">Anytime</label><br>
+                                <input type="radio" name="contactTime" value="am"><label for="am">AM</label><br>
+                                <input type="radio" name="contactTime" value="pm"><label for="pm">PM</label><br>
+                                <input type="radio" name="contactTime" value="custom"><label for="custom">Specific</label>
+                                <input type="time" name="customTime" value="">
+                        </td>
+                        </tr>
+                        <tr>
+                            <td class="noborder">Range:</td>
+                            <td class="noborder"><input type="range" name="myRange" value=""></td>
+                        </tr>
+                      </table>  
+                    </td>
+
+                    <!--Column 2-->
+                    <td>
+                    <table>
+                        <tr>
+                            <td class="noborder">Check Boxes:</td>
+                            <td class="noborder"><input type="checkbox" name="demoCheckbox" value="1">One
+                            <td class="noborder"><input type="checkbox" name="demoCheckbox" value="2">Two
+                            <td class="noborder"><input type="checkbox" name="demoCheckbox" value="3">Three
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="noborder">Select List:</td>
+                            <td class="noborder">
+                                <select name="mySelectList" multiple size="2">
+                                    <option value="1">Adipisicing occaecat</option>
+                                    <option value="2">Minim elit</option>
+                                    <option value="3">tempor anim</option>
+                                    <option value="4">Lorem ex es</option>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="noborder">Number:</td>
+                            <td class="noborder"><input type="number" name="myNumber" value=""></td>
+                        </tr>
+                        <tr>
+                            <td class="noborder">Text Area:</td>
+                            <td class="noborder">
+                                <textarea name="myTextarea" rows="4" cols="25">officia cupidata laboris</textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="noborder">File Upload:</td>
+                            <td class="noborder"><input type="file" name="myFile" value=""></td>
+                        </tr>
+                    </table>
+                    </td>
+                </tr>
+            </table>
+            <input type="reset" name="resetBtn" value="Reset">
+            <input type="submit" name="submitBtn" value="Submit Form">
+            </form>
+
+        </section>
+    </body>
+</html>

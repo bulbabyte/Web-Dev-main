@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Template</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: #e83140;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+nav {
+  float: left;
+  width: 20%;
+  background: #f5dcc4;
+  padding: 20px;
+  height: 300px;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  height: 100px;
+}
+.articleLight {
+  background-color: #f5f5bc;
+}
+.articleDark {
+  background-color: #f5f590;
+}
+aside {
+  float: right;
+  padding: 20px;
+  width: 30%;
+  height: 300px;
+}
+.asideLight {
+  background-color: #d6f2b3;
+}
+.asideDark {
+  background-color: #c7f095;
+}
+section:after {
+  content: ";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #71498a;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+</style>
+</head>
+<body>
+<h2>Structural Tags Exercise</h2>
+<p>Here below are exemplified the structural tags.</p>
+<header>
+  <h2>The Header</h2>
+</header>
+<section>
+  <nav>
+    <h4>The Navigation (nav)</h4>
+    <p>For nav CSS use a float to the left, padding of 20 pixels, a height of 300 pixels, and 20% of the page width.</p>
+  </nav>
+  <aside class="asideDark">
+    <h1>This is the aside</h1>
+    <p>For aside CSS use a float to the right, padding of 20 pixels, a height of 300 pixels, and 30% of the page width.</p>
+  </aside>
+  <article class="articleLight">
+    <h1>This is an Article</h1>
+    <p>For the article CSS use a float to the left, padding of 20 pixels, a height of 100 pixels, and 40% of the page width.</p>
+  </article>
+  <article class="articleDark">
+    <h1>This is another Article</h1>
+    <p>Note that the nav, both articles, and both asides are in the same section.</p>
+  </article>
+  <article class="articleLight">
+    <h1>This is the third Article</h1>
+    <p>Can you create it?.</p>
+  </article>
+</section>
+<footer>
+  <p>The Footer</p>
+</footer>
+</body>
+</html>
