@@ -15,4 +15,3 @@ if haveUmbrella or weatherIsNice:
     print('Go for a walk')
 else:
     print('Stay inside')
-    
